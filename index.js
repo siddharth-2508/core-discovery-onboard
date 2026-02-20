@@ -311,19 +311,19 @@ const showHelp = () => {
   console.log("\n═════════════════════════════════════════════════════════════");
   console.log("\n🆘 \x1b[1m\x1b[36mNykaa Onboarding Tool - Help\x1b[0m\n");
   console.log("\x1b[1mAvailable Commands:\x1b[0m\n");
-  console.log("  \x1b[36mnpx nykaa-onboard\x1b[0m");
+  console.log("  \x1b[36mnpx github:siddharth-2508/core-discovery-onboard\x1b[0m");
   console.log("    Start or continue your onboarding journey\n");
-  console.log("  \x1b[36mnpx nykaa-onboard progress\x1b[0m");
+  console.log("  \x1b[36mnpx github:siddharth-2508/core-discovery-onboard progress\x1b[0m");
   console.log("    View your current onboarding progress\n");
-  console.log("  \x1b[36mnpx nykaa-onboard arch-walkthrough\x1b[0m");
+  console.log("  \x1b[36mnpx github:siddharth-2508/core-discovery-onboard arch-walkthrough\x1b[0m");
   console.log("    View architecture walkthrough only\n");
-  console.log("  \x1b[36mnpx nykaa-onboard faqs\x1b[0m");
+  console.log("  \x1b[36mnpx github:siddharth-2508/core-discovery-onboard faqs\x1b[0m");
   console.log("    View frequently asked questions\n");
-  console.log("  \x1b[36mnpx nykaa-onboard getJenkinsPipelines\x1b[0m");
+  console.log("  \x1b[36mnpx github:siddharth-2508/core-discovery-onboard getJenkinsPipelines\x1b[0m");
   console.log("    View list of Jenkins pipelines\n");
-  console.log("  \x1b[36mnpx nykaa-onboard reset\x1b[0m");
+  console.log("  \x1b[36mnpx github:siddharth-2508/core-discovery-onboard reset\x1b[0m");
   console.log("    Reset all progress and start over\n");
-  console.log("  \x1b[36mnpx nykaa-onboard help\x1b[0m");
+  console.log("  \x1b[36mnpx github:siddharth-2508/core-discovery-onboard help\x1b[0m");
   console.log("    Show this help message\n");
   console.log("\x1b[1m💡 Tips:\x1b[0m\n");
   console.log("  • Your progress is automatically saved after each step");
@@ -337,7 +337,7 @@ const showHelp = () => {
 console.log("\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
 console.log("\n   👋 Welcome to Nykaa Core Discovery Frontend Onboarding!")
 console.log("   This tool will guide you step by step.")
-console.log("\n   💡 Type \x1b[36mnpx nykaa-onboard help\x1b[0m to see all available commands")
+console.log("\n   💡 Type \x1b[36mnpx github:siddharth-2508/core-discovery-onboard help\x1b[0m to see all available commands")
 console.log("\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n")
 
 
@@ -943,7 +943,7 @@ async function showMenu() {
       await showMenu();
       break;
     case "9":
-      console.log("\n👋 See you later! Run \x1b[36mnpx nykaa-onboard\x1b[0m anytime to continue.\n");
+      console.log("\n👋 See you later! Run \x1b[36mnpx github:siddharth-2508/core-discovery-onboard\x1b[0m anytime to continue.\n");
       rl.close();
       break;
     default:
@@ -969,7 +969,7 @@ async function runOnboarding() {
   const hasJira = await stepJiraAccess();
   if (!hasJira) {
     console.log("\n💾 \x1b[33mProgress saved. Run this tool again once you have JIRA access!\x1b[0m");
-    console.log("\n💡 \x1b[90mTip: Run \x1b[36mnpx nykaa-onboard progress\x1b[0m\x1b[90m anytime to check your status\x1b[0m");
+    console.log("\n💡 \x1b[90mTip: Run \x1b[36mnpx github:siddharth-2508/core-discovery-onboard progress\x1b[0m\x1b[90m anytime to check your status\x1b[0m");
     
     // Show buddy info if available
     const currentProgress = loadProgress();
