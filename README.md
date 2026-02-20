@@ -4,11 +4,13 @@ An interactive CLI tool to guide new team members through the onboarding process
 
 ## 📦 Installation
 
-This tool is run directly via npx, no installation needed!
+This tool is run directly via npx from GitHub, no installation needed!
 
 ```bash
-npx nykaa-onboard
+npx github:siddharth-2508/core-discovery-onboard
 ```
+
+> **Note:** If published to npm in the future, you can also use `npx nykaa-onboard`
 
 ## 🎯 Features
 
@@ -30,29 +32,29 @@ npx nykaa-onboard
 
 ```bash
 # Start or continue onboarding (default)
-npx nykaa-onboard
+npx github:siddharth-2508/core-discovery-onboard
 ```
 
 ### Additional Commands
 
 ```bash
 # View your current progress
-npx nykaa-onboard progress
+npx github:siddharth-2508/core-discovery-onboard progress
 
 # View architecture walkthrough only
-npx nykaa-onboard arch-walkthrough
+npx github:siddharth-2508/core-discovery-onboard arch-walkthrough
 
 # View frequently asked questions
-npx nykaa-onboard faqs
+npx github:siddharth-2508/core-discovery-onboard faqs
 
 # View Jenkins pipelines list
-npx nykaa-onboard getJenkinsPipelines
+npx github:siddharth-2508/core-discovery-onboard getJenkinsPipelines
 
 # Reset all progress and start over
-npx nykaa-onboard reset
+npx github:siddharth-2508/core-discovery-onboard reset
 
 # Show help and available commands
-npx nykaa-onboard help
+npx github:siddharth-2508/core-discovery-onboard help
 ```
 
 ## 🎮 Interactive Menu Options
@@ -137,7 +139,7 @@ Example format:
 ## 💡 Tips & Best Practices
 
 ### For New Users
-- Run `npx nykaa-onboard` to start your onboarding journey
+- Run `npx github:siddharth-2508/core-discovery-onboard` to start your onboarding journey
 - Your progress is automatically saved after each step
 - If you get blocked (waiting for access), just exit - your progress is saved!
 - Re-run the tool when you're ready to continue
@@ -153,7 +155,7 @@ Example format:
 - These can be completed later when needed
 
 ### Checking Progress
-- Run `npx nykaa-onboard progress` anytime to see your completion status
+- Run `npx github:siddharth-2508/core-discovery-onboard progress` anytime to see your completion status
 - No need to go through the flow to check where you are
 
 ### Undo a Step
@@ -163,7 +165,7 @@ Example format:
 - The step will be marked as pending and you can complete it again
 
 ### Starting Over
-- If you want to reset and start fresh, run `npx nykaa-onboard reset`
+- If you want to reset and start fresh, run `npx github:siddharth-2508/core-discovery-onboard reset`
 - You'll be asked to confirm before resetting
 
 ## 🗂️ Progress File Location
@@ -179,7 +181,7 @@ This file contains:
 - Onboarding start date
 - Last update timestamp
 
-You can manually delete this file to reset progress, or use `npx nykaa-onboard reset`.
+You can manually delete this file to reset progress, or use `npx github:siddharth-2508/core-discovery-onboard reset`.
 
 ## 🏗️ Architecture Overview
 
@@ -203,7 +205,7 @@ The tool covers these key repositories:
 
 ### Want to Start Fresh
 ```bash
-npx nykaa-onboard reset
+npx github:siddharth-2508/core-discovery-onboard reset
 ```
 
 ### Tool Not Responding
@@ -242,4 +244,4 @@ Internal tool for Nykaa Core Discovery Frontend team.
 
 **Happy Onboarding! 🚀**
 
-Need help? Run `npx nykaa-onboard help`
+Need help? Run `npx github:siddharth-2508/core-discovery-onboard help`
