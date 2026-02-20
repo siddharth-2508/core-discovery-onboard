@@ -1,0 +1,13 @@
+{
+  "name": "nykaa-onboard",
+  "version": "1.0.0",
+  "bin": {
+    "nykaa-onboard": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "type": "module",
+  "author": "Siddharth Khurana",
+  "description": "CLI tool to onboard Core-Discovery Frontend engineers"
+}
